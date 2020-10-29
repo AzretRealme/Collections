@@ -6,55 +6,6 @@ import java.util.List;
 public class MAin {
     public static void main(String[] args) {
 
-      /*  ArrayList<String> books = new ArrayList<>(5);
-        books.add("Том Сойер");
-        books.add("Джек Лондон");
-        books.add("Витязь в тигровой шкуре");
-        books.add("Алхимик");
-        books.add("Маленький принц");
-        books.add("Маленький принц");
-        books.add("Маленький принц");
-
-
-        //books.forEach(System.out::println);
-
-        Collections.sort(books);
-        books.forEach(System.out::println);
-
-        System.out.println("-----------------------------");*/
-
-        /*int position = Collections.binarySearch(books, "Алхимик");
-
-        System.out.println(position);*/
-       /*
-        Collections.reverse(books);   //сортирует с низу вверх
-        books.forEach(System.out::println);
-
-        Collections.shuffle(books);     //сортирует вразброс
-        books.forEach(System.out::println);
-
-        Collections.fill(books, "Маленький принц"); //клонирует весь список тоист заменяет на все своей строчкой
-        books.forEach(System.out::println);
-
-        */
-        //Collections.copy(books, books);     //kopieren
-        //Collections.rotate(books, 1); //andern nach ein
-
-        /*List<String> a = Collections.unmodifiableList(books);
-        a.add("Маленький принц"); //BUdet owibka
-        books.add("Маленький принц"); //budet rabotat*/
-
-        /*int count = Collections.frequency(books, "Маленький принц");
-        System.out.println(count); //erzhalt, wie viel haben wir element*/
-
-        //Collections.swap(books, 0, 2); //Wir haben swap gemacht
-        //gibt es noch mal variant
-        //Collections.swap(books, books.indexOf("Витязь в тигровой шкуре"), books.indexOf("Том Сойер"));
-        //books.forEach(System.out::println);
-       /* boolean a = Collections.disjoint(books, books);
-        System.out.println(a); //Es Prufungt, ob es richtig oder falsch*/
-        //"Секунды в часе" "Секунды в сутках" "Секунды в неделе" "Секунды в месяце"
-
         List<Integer> time = new ArrayList<>(5);
         time.add(60); //в минуту
         time.add(1200);  //  в час
