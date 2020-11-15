@@ -34,7 +34,7 @@ public class MAin {
         System.out.println(Collections.min(time));
 
         System.out.println("------------------------------------");
-        Collections.fill(time, 60); //заменяем  весь список на один и тот же эелемент
+        Collections.fill(time, 42); //заменяем  весь список на один и тот же эелемент
         time.forEach(System.out::println);
         System.out.println(" заменяем  весь список на один и тот же эелемент");
 
