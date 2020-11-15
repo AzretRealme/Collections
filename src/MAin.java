@@ -6,12 +6,12 @@ import java.util.List;
 public class MAin {
     public static void main(String[] args) {
 
-        List<Integer> time = new ArrayList<>(5);
-        time.add(60); //в минуту
-        time.add(1200);  //  в час
-        time.add(86400);  //в сутки
-        time.add(604800);  // в неделю
-        time.add(2592000);  // в месяц
+        List<Integer> time = new ArrayList<>();
+        time.add(1 * 60); //результат секунд в минуту
+        time.add(60 * 60); // результат секунд в час
+        time.add(1440 * 60);  //результат секунд в сутки
+        time.add(10080 * 60);  // результат секунд в неделю
+        time.add(43200 * 60);  // результат секунд в месяц
         //time.forEach(System.out::println);
 
         Collections.sort(time);
