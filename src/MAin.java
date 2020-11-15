@@ -7,11 +7,11 @@ public class MAin {
     public static void main(String[] args) {
 
         List<Integer> time = new ArrayList<>();
-        time.add(1 * 60); //результат секунд в минуту
-        time.add(60 * 60); // результат секунд в час
-        time.add(1440 * 60);  //результат секунд в сутки
-        time.add(10080 * 60);  // результат секунд в неделю
-        time.add(43200 * 60);  // результат секунд в месяц
+        time.add(1 * 60); // находим количество секунд (минута)
+        time.add(60 * 60); // находим количество секунд (час)
+        time.add(1440 * 60);  // находим количество секунд (день)
+        time.add(10080 * 60);  // находим количество секунд (неделя)
+        time.add(43200 * 60);  // находим количество секунд (30 дней)
         //time.forEach(System.out::println);
 
         Collections.sort(time);
